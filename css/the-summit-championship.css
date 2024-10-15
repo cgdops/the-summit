@@ -455,6 +455,12 @@ a {
   background-color: #000;
 }
 
+.button.homepage {
+  width: 320px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -1335,6 +1341,11 @@ a {
   width: 240px;
 }
 
+.nav-menu-wrapper {
+  background-color: #000;
+  position: relative;
+}
+
 .nav-menu-two {
   justify-content: space-between;
   align-items: center;
@@ -1496,7 +1507,7 @@ a {
   text-align: center;
   border-radius: 50px;
   margin-top: 0;
-  margin-left: 20px;
+  margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 11px;
@@ -1873,7 +1884,7 @@ a {
   border-bottom: 1px solid var(--black);
   background-color: var(--black);
   object-fit: fill;
-  background-image: url('../images/innerpagewebbanner1.avif');
+  background-image: url('../images/innerbg.jpg');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2687,6 +2698,10 @@ a {
   .button.form-button {
     border-top-right-radius: 0;
     border-bottom-left-radius: 3px;
+  }
+
+  .button.homepage {
+    width: 100%;
   }
 
   .wrap {
