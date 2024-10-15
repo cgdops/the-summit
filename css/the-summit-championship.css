@@ -2248,6 +2248,10 @@ a {
   font-family: Varela, sans-serif;
 }
 
+.paragraph-11.dark {
+  color: #686868;
+}
+
 .team-grid--staff {
   grid-column-gap: 64px;
   grid-row-gap: 56px;
@@ -2350,6 +2354,15 @@ a {
   display: flex;
 }
 
+<<<<<<< Updated upstream
+=======
+.summit-banner {
+  align-self: center;
+  width: 100%;
+  display: block;
+}
+
+>>>>>>> Stashed changes
 @media screen and (min-width: 1440px) {
   .hotel-grid {
     grid-template-columns: 1fr .75fr 1fr 1fr;
