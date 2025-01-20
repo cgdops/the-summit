@@ -2436,11 +2436,18 @@ a {
   color: var(--yellow);
   text-align: center;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .workshop-date {
   color: var(--yellow);
   margin-bottom: 0;
+}
+
+.workshop-title {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 32px;
 }
 
 @media screen and (min-width: 1440px) {
