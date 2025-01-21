@@ -461,6 +461,12 @@ a {
   margin-right: 0;
 }
 
+.button.inline {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
 .h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -2450,6 +2456,17 @@ a {
   color: #fcfcfc;
   text-align: center;
   font-size: 32px;
+}
+
+.full-width-link {
+  text-decoration: none;
+  display: block;
+}
+
+.centered {
+  flex-flow: column;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
