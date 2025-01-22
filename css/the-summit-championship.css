@@ -1631,6 +1631,11 @@ a {
   right: 8px;
 }
 
+.button-primary-2.cta {
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
 .footer-wrapper-three {
   box-sizing: border-box;
   object-fit: fill;
@@ -2940,6 +2945,10 @@ a {
     color: #fff;
   }
 
+  .nav-menu-wrapper.dropdown {
+    position: absolute;
+  }
+
   .nav-menu-two {
     color: #000;
     border-radius: 20px;
@@ -3070,6 +3079,12 @@ a {
 
   .footer-form-input {
     width: 100%;
+  }
+
+  .button-primary-2.cta {
+    color: var(--black);
+    background-color: #fff;
+    font-weight: 600;
   }
 
   .footer-block-three {
