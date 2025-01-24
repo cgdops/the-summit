@@ -2543,6 +2543,15 @@ a {
     width: 100vw;
   }
 
+  .button.inline {
+    margin-bottom: 6px;
+    margin-right: auto;
+  }
+
+  .button.inline.outline.yello {
+    margin-right: auto;
+  }
+
   .nav-dropdown-link {
     padding-top: 20px;
   }
