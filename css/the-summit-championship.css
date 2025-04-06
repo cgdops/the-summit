@@ -461,7 +461,12 @@ a {
   margin-right: 0;
 }
 
+.button.homepage.hide {
+  text-transform: uppercase;
+}
+
 .button.inline {
+  text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
@@ -1383,14 +1388,7 @@ a {
   color: var(--yellow);
 }
 
-.nav-link:focus-visible {
-  outline-offset: 0px;
-  color: var(--yellow);
-  border-radius: 4px;
-  outline: 2px solid #0050bd;
-}
-
-.nav-link[data-wf-focus-visible] {
+.nav-link:focus-visible, .nav-link[data-wf-focus-visible] {
   outline-offset: 0px;
   color: var(--yellow);
   border-radius: 4px;
@@ -1414,14 +1412,7 @@ a {
   color: var(--yellow);
 }
 
-.nav-dropdown-toggle:focus-visible {
-  outline-offset: 0px;
-  color: var(--yellow);
-  border-radius: 5px;
-  outline: 2px solid #0050bd;
-}
-
-.nav-dropdown-toggle[data-wf-focus-visible] {
+.nav-dropdown-toggle:focus-visible, .nav-dropdown-toggle[data-wf-focus-visible] {
   outline-offset: 0px;
   color: var(--yellow);
   border-radius: 5px;
@@ -1455,14 +1446,7 @@ a {
   font-weight: 400;
 }
 
-.nav-dropdown-link-2:focus-visible {
-  outline-offset: 0px;
-  color: #0050bd;
-  border-radius: 5px;
-  outline: 2px solid #0050bd;
-}
-
-.nav-dropdown-link-2[data-wf-focus-visible] {
+.nav-dropdown-link-2:focus-visible, .nav-dropdown-link-2[data-wf-focus-visible] {
   outline-offset: 0px;
   color: #0050bd;
   border-radius: 5px;
