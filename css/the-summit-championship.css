@@ -1206,8 +1206,9 @@ a {
 
 .centered-heading.judges {
   color: var(--yellow);
+  word-break: normal;
   margin-top: 40px;
-  line-height: 60px;
+  line-height: 72px;
 }
 
 .centered-heading.judges.jr {
@@ -2300,6 +2301,10 @@ a {
   grid-auto-columns: 1fr;
   margin-top: 50px;
   display: grid;
+}
+
+.team-grid---judges.hide {
+  display: none;
 }
 
 .bold-text-4 {
