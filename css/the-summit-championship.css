@@ -243,6 +243,10 @@ a {
   background-image: none;
 }
 
+.section.summit-jr.hide {
+  display: none;
+}
+
 .section.rules {
   background-image: none;
 }
