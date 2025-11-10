@@ -194,7 +194,6 @@ a {
 
 .section.wide.home {
   background-image: none;
-  height: 30rem;
   display: flex;
   position: relative;
 }
@@ -2549,6 +2548,21 @@ a {
 
 .container-8 {
   max-width: 1200px;
+}
+
+.warning_info {
+  color: #fff;
+  text-align: center;
+  background-color: #ffe89185;
+  border-radius: 7px;
+  width: 42rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.heading-19, .rich-text-block-4, .paragraph-12 {
+  color: inherit;
 }
 
 @media screen and (min-width: 1440px) {
