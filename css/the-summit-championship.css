@@ -1058,6 +1058,11 @@ a {
   font-weight: 700;
 }
 
+.heading-3.centered-heading.white {
+  color: #fff;
+  line-height: 1;
+}
+
 .heading-4 {
   color: #f6f2f2;
   text-align: center;
@@ -1186,7 +1191,7 @@ a {
 .grid {
   grid-column-gap: 36px;
   grid-template: ". . Area Area"
-  / 1fr 1fr 1fr 1fr;
+  / 1fr 1fr 2fr 1fr;
 }
 
 .list-2 {
@@ -3544,6 +3549,10 @@ a {
     line-height: 28px;
   }
 
+  .heading-3.centered-heading.white {
+    font-size: 32px;
+  }
+
   .heading-4 {
     font-size: 26px;
     line-height: 30px;
@@ -3587,8 +3596,8 @@ a {
   .grid {
     grid-column-gap: 12px;
     grid-row-gap: 12px;
-    grid-template-rows: auto;
-    grid-template-columns: 3.5fr;
+    grid-template: "Area"
+    / 3.5fr;
   }
 
   .list-2 {
@@ -3905,6 +3914,7 @@ a {
 
 #w-node-_4d2caaf3-9d40-ba1a-d758-23e58547c12c-c57504a8 {
   grid-area: span 1 / span 2 / span 1 / span 2;
+  align-self: center;
 }
 
 #w-node-d9ae94d6-436c-0f06-c1aa-0d33a22076ed-c57504a8 {
@@ -3988,6 +3998,14 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-fa78c84c-7121-603a-07c3-e17eece4dcd5-c57504a8 {
+    grid-row: 2 / 3;
+  }
+
+  #w-node-_4d2caaf3-9d40-ba1a-d758-23e58547c12c-c57504a8 {
+    grid-column: span 1 / span 1;
+  }
+
   #w-node-_0dd9a564-4ecd-98bf-9f62-c582d4504bad-a9adaf92, #w-node-_980e953a-1768-559d-e2d0-dead07b05805-6e52a1e9, #w-node-_977c9d6d-0170-b1d7-4a0b-eb00bc05f0d3-6e52a1e9, #w-node-_5392df1b-c58b-03c8-4e28-e3e7f7cbcd93-6e52a1e9, #w-node-f3a4fdac-dcca-91c4-2519-98c6559dc64e-6e52a1e9, #w-node-_4e454cce-4bd5-d6d5-8c6d-a5a4ce8aed2f-6e52a1e9, #w-node-f40a2916-887e-2fb8-9b78-aa1cef72cf35-6e52a1e9, #w-node-_5aa82718-f1c7-a003-d0d9-400d7d1e7153-6e52a1e9, #w-node-_4be5138c-1316-2136-f604-742ac2fc4b07-6e52a1e9, #w-node-_8261e366-3645-b95f-e1ad-c1af43122d3a-6e52a1e9, #w-node-_6c4f776e-b78e-dfc6-0f12-441fa7987a3f-6e52a1e9, #w-node-_2fcfe529-3ca5-4268-8464-0a1b5a591210-6e52a1e9 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
