@@ -184,6 +184,10 @@ a {
   font-family: Lato, sans-serif;
 }
 
+.section.wide.img.padding-small.hide {
+  display: none;
+}
+
 .section.wide.purple {
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg'), linear-gradient(135deg, #fc0a7e, #602bb6);
   background-position: 50%, 0 0;
@@ -501,6 +505,13 @@ a {
   margin-right: auto;
 }
 
+.button.centered {
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .h2 {
   color: #fff;
   margin-bottom: 30px;
@@ -612,7 +623,7 @@ a {
   border-bottom: 1px #2e2e2e;
   width: 100%;
   margin-top: 10px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   padding-top: 0;
   padding-bottom: 0;
   font-family: Lato, sans-serif;
@@ -1351,6 +1362,10 @@ a {
 .section-2.padding-small {
   padding-top: var(--space--sm);
   padding-bottom: var(--space--sm);
+}
+
+.section-2.padding-small.hide {
+  display: none;
 }
 
 .div-block-14 {
@@ -2600,6 +2615,13 @@ a {
   color: #fff;
   font-size: 1.6rem;
   line-height: 1;
+}
+
+.flex-single-col {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {
