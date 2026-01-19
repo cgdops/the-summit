@@ -2624,6 +2624,23 @@ a {
   display: flex;
 }
 
+.announcement_bar {
+  z-index: 99;
+  color: #fff;
+  background-color: #ff3030;
+  justify-content: center;
+  align-items: center;
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+  display: flex;
+  position: relative;
+}
+
+.paragraph-14 {
+  color: inherit;
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 1440px) {
   .hotel-grid {
     grid-template-columns: 1fr .75fr 1fr 1fr;
