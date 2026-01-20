@@ -2647,6 +2647,10 @@ a {
   margin-bottom: 0;
 }
 
+.list-item {
+  flex: 1;
+}
+
 @media screen and (min-width: 1440px) {
   .hotel-grid {
     grid-template-columns: 1fr .75fr 1fr 1fr;
