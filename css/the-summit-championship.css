@@ -263,6 +263,7 @@ a {
 }
 
 .section.rules {
+  padding-top: var(--space--sm);
   background-image: none;
 }
 
@@ -2627,6 +2628,7 @@ a {
 .announcement_bar {
   z-index: 99;
   color: #fff;
+  text-align: center;
   background-color: #ff3030;
   justify-content: center;
   align-items: center;
@@ -2634,6 +2636,10 @@ a {
   padding-bottom: .2rem;
   display: flex;
   position: relative;
+}
+
+.announcement_bar.hide {
+  display: none;
 }
 
 .paragraph-14 {
