@@ -123,6 +123,10 @@ a {
   box-shadow: 6px -17px 5px 4px #000;
 }
 
+.section.center.hide {
+  display: none;
+}
+
 .section.column {
   justify-content: space-between;
   height: auto;
